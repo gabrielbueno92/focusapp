@@ -1,5 +1,4 @@
-# focus_app
-
+# Instructivo para ejecutar localmente la aplicación:
 A new Flutter application.
 
 ## Getting Started
