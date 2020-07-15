@@ -1,9 +1,9 @@
 # Trabajo final de graduación - Ingeniería en Software
 Para poder ejecutar localmente el proyecto, en primer lugar se deben realizar las siguientes intalaciones:
-### Instalar Visual Studio Code: https://code.visualstudio.com/download
-### Instalar un emulador de dispositivos móviles (en este caso se presenta el enlace del emulador genymotion, pero puede ser cualquiera compatible con visual studio code): https://www.genymotion.com/download/
+### a) Instalar Visual Studio Code: https://code.visualstudio.com/download
+### b) Instalar un emulador de dispositivos móviles (en este caso se presenta el enlace del emulador genymotion, pero puede ser cualquiera compatible con visual studio code): https://www.genymotion.com/download/
 Abrir la aplicación del emulador instalado, crearse una cuenta e instalar un dispositivo a elección a través de la herramienta.
-### Instalar flutter: https://flutter.dev/docs/get-started/install
+### c) Instalar flutter: https://flutter.dev/docs/get-started/install
 
 
 Una vez realizadas las instalaciones anteriores, los pasos a seguir son los siguientes:
