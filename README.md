@@ -19,7 +19,7 @@ Desde la barra de menu de visual studio code seleccionar File > Open... y selecc
 Una vez instalado el dispositivo seleccionado, ejecutarlo para que la aplicación pueda ejecutarse allí.
 
 ## 4 - Ejecutar proyecto desde Visual Studio Code
-Desde la linea de comandos o terminal, ejecutar el siguiente comando: flutter run.
+Desde la linea de comandos o terminal de visual studio code, ejecutar el siguiente comando: flutter run.
 
 Aguardar unos instantes mientras se instala y se ejecuta la aplicación en el emulador.
 La aplicación se abrirá automáticamente en el emulador y se podrá interactuar con la misma.
