@@ -6,7 +6,7 @@ Abrir la aplicación del emulador instalado, crearse una cuenta e instalar un di
 ### c) Instalar flutter: https://flutter.dev/docs/get-started/install
 
 
-Una vez realizadas las instalaciones anteriores, los pasos a seguir son los siguientes:
+Una vez realizadas las instalaciones anteriores, ya se puede proceder a descargar el proyecto y ejecutarlo localmente con los siguientes pasos:
 
 ## 1 - Descargar el proyecto desde github a la computadora
 Desde el boton 'Code', seleccionar la opción 'Download ZIP'.
