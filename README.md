@@ -4,6 +4,9 @@ Para poder ejecutar localmente el proyecto, se necesitan los siguientes requisit
 ### 2 - Instalar un emulador de dispositivos móviles (en este caso se presenta el enlace del emulador genymotion, pero puede ser cualquiera compatible con visual studio code): https://www.genymotion.com/download/
 ### 3 - Instalar flutter: https://flutter.dev/docs/get-started/install
 
+
+Una vez realizadas las instalaciones anteriores, los pasos a seguir son los siguientes:
+
 ## 1 - Descargar el proyecto desde github
 
 ## 2 - Descargar el proyecto
