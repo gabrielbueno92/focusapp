@@ -1,4 +1,4 @@
-# focus_app
+# focusapp
 
 A new Flutter application.
 

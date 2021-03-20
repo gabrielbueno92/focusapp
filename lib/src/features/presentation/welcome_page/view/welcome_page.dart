@@ -1,0 +1,64 @@
+import 'dart:ui';
+
+import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:focusapp/src/features/presentation/commons_widgets/header_text.dart';
+
+class WelcomePage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    SystemChrome.setSystemUIOverlayStyle(
+        SystemUiOverlayStyle.light.copyWith(statusBarColor: Colors.white));
+    return Scaffold(
+        body: Stack(
+      children: [
+        Container(
+          decoration: BoxDecoration(
+              image: DecorationImage(
+            fit: BoxFit.cover,
+            image: AssetImage('images/welcome-image.jpg'),
+          )),
+          child: BackdropFilter(
+            filter: ImageFilter.blur(sigmaX: 1.0, sigmaY: 1.0),
+            child: Container(color: Colors.black.withOpacity(0.1)),
+          ),
+        ),
+        Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            Container(
+                padding: EdgeInsets.symmetric(horizontal: 50.0, vertical: 30.0),
+                child: headerText('POTENCIÁ TU EQUIPO DE FÚTBOL', Colors.white,
+                    FontWeight.bold, 45.0)),
+            Container(
+              padding: EdgeInsets.symmetric(horizontal: 50.0, vertical: 10.0),
+              child: Text(
+                'A través de métricas especificas, medí tu equipo, analizá variantes y sacá el mayor provecho para el próximo partido',
+                style: TextStyle(
+                    color: Colors.white,
+                    fontWeight: FontWeight.w400,
+                    fontSize: 17.0),
+              ),
+            ),
+            Container(
+              margin: EdgeInsets.only(top: 100.0),
+              width: 350.0,
+              height: 45.0,
+              child: RaisedButton(
+                onPressed: () {
+                  // Navigate to the second screen using a named route.
+                  Navigator.pushNamed(context, '/login');
+                },
+                shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(20.0)),
+                color: Theme.of(context).accentColor,
+                child: Text('Ingresar',
+                    style: TextStyle(color: Colors.white, fontSize: 15.0)),
+              ),
+            ),
+          ],
+        )
+      ],
+    ));
+  }
+}
