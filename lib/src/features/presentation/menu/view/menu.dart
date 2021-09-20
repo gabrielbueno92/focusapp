@@ -54,10 +54,12 @@ class _MainPageState extends State<MainPage> {
                               setState(() => opponentName = _opponentName),
                           keyboardType: TextInputType.text,
                           controller: _controller,
+                          // ignore: missing_return
                           validator: (value) {
                             if (value.isEmpty) {
                               return "Ingrese nombre del rival";
                             }
+                            // ignore: empty_statements
                             ;
                           },
                           decoration: InputDecoration(
@@ -68,6 +70,7 @@ class _MainPageState extends State<MainPage> {
                   ],
                 ),
                 actions: <Widget>[
+                  // ignore: deprecated_member_use
                   FlatButton(
                       child: Text('CANCELAR'),
                       textColor: Colors.green[700],
@@ -75,6 +78,7 @@ class _MainPageState extends State<MainPage> {
                         Navigator.of(context).pop(false);
                         _controller.clear();
                       }),
+                  // ignore: deprecated_member_use
                   FlatButton(
                       child: Text('SIGUIENTE'),
                       textColor: Colors.green[700],

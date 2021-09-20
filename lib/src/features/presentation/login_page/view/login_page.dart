@@ -146,6 +146,7 @@ Widget _loginButton(BuildContext context) {
     margin: EdgeInsets.only(top: 100.0),
     width: 350.0,
     height: 45.0,
+    // ignore: deprecated_member_use
     child: RaisedButton(
       onPressed: () {
         // Navigate to the second screen using a named route.
@@ -164,6 +165,7 @@ Widget _connectWithFbButton(BuildContext context) {
     width: 350.0,
     height: 45.0,
     margin: EdgeInsets.only(top: 20.0),
+    // ignore: deprecated_member_use
     child: RaisedButton(
       onPressed: () {},
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
@@ -194,6 +196,7 @@ Widget _connectWithGoogleButton(BuildContext context) {
     width: 350.0,
     height: 45.0,
     margin: EdgeInsets.only(top: 20.0),
+    // ignore: deprecated_member_use
     child: RaisedButton(
       onPressed: () {},
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
