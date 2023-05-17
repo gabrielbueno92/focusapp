@@ -1,4 +1,4 @@
-package com.focus.focus_app
+package com.focus.focusapp
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity

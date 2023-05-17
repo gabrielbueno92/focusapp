@@ -5,7 +5,6 @@ Para poder ejecutar localmente el proyecto, en primer lugar se deben realizar la
 Abrir la aplicación del emulador instalado, crearse una cuenta e instalar un dispositivo a elección a través de la herramienta.
 ### c) Instalar flutter: https://flutter.dev/docs/get-started/install
 
-
 Una vez realizadas las instalaciones anteriores, ya se puede proceder a descargar el proyecto y ejecutarlo localmente con los siguientes pasos:
 
 ## 1 - Descargar el proyecto desde github a la computadora
